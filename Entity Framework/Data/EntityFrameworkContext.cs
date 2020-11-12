@@ -16,7 +16,7 @@ namespace EntityFrameworkOgolla.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Data Source='.\';Initial Catalog='EntityFrameworkOgolla';Persist Security Info=True;User ID='staff_portal';Password=123@Team");
+                "Data Source='.\';Initial Catalog='EntityFrameworkOgolla';Persist Security Info=True;User ID='portal';Password=123@Team");
         }
 
     }
