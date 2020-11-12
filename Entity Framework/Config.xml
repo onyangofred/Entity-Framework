@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<configuration>
+  <connectionStrings>
+    <add name="Db" connectionString="Data Source='.\';Initial Catalog='NavPortal-EASSASPF';Persist Security Info=True;User ID='staff_portal';Password=123@Team" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <appSettings>
+    <add key="Company" value="EA-SSASPF" />
+    <add key="NAVODataUri" value="http://localhost:5003/EASSASPF/OData/Company('EA-SSASPF')/" />
+    <add key="NAVPortalWSUrl" value="http://localhost:5002/EASSASPF/WS/EA-SSASPF/Codeunit/PortalWebService" />
+    <add key="NAVUsername" value="administrator" />
+    <add key="NAVPassword" value="ayden@2020" />
+    <add key="NAVDomain" value="ogolla" />
+    <add key="Home" value="C:\NITA NavPortal Databases\EASSASPF\NAVPortal\EASSASPF\wwwroot\" />
+    <add key="EDMS" value="C:\NITA NavPortal Databases\EASSASPF\NAVPortal\EASSASPF\wwwroot\EDMS\" />
+    <add key="ErrorLog" value="C:\NITA NavPortal Databases\EASSASPF\NAVPortal\EASSASPF\wwwroot\Logs\" />
+    <add key="Uploads" value="C:\NITA NavPortal Databases\EASSASPF\NAVPortal\EASSASPF\wwwroot\Uploads\" />
+    <add key="Attachments" value="C:\NITA NavPortal Databases\EASSASPF\NAVPortal\EASSASPF\wwwroot\Attachments\" />
+    <add key="DownloadsPDF" value="../../Downloads/" />
+    
+    <add key="SMTP" value="smtp.gmail.com" />
+    <add key="Port" value="587" />
+    <add key="EnableSSL" value="true" />
+    <add key="SenderEmail" value="ksgtestuser@gmail.com" />
+    <add key="SenderPassword" value="alyssa@2020" />
+  </appSettings>
+  
+</configuration>
